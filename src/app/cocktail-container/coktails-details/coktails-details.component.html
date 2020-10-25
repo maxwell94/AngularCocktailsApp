@@ -1,0 +1,17 @@
+<div class="row mt-2">
+  <div class="card" style="width: 18rem">
+    <img
+      class="card-img-top img-fluid mx-auto d-block"
+      height="100"
+      [src]="cocktail.img"
+      [alt]="cocktail"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ cocktail.name }}</h5>
+      <p class="card-text">
+        {{ cocktail.description }}
+      </p>
+      <a href="#" class="btn btn-primary">Edit Drink</a>
+    </div>
+  </div>
+</div>
